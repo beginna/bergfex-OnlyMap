@@ -13,4 +13,4 @@ Install bergfex OnlyMap from
 ![bergfexcom_pageAction_redbox](https://user-images.githubusercontent.com/19627004/103413310-4541d380-4b79-11eb-9adb-1d7a1dd02f81.png)
 
 ## Chrome
-![4](https://user-images.githubusercontent.com/19627004/103425333-f2d0d900-4bb1-11eb-8a0d-9b2e28b11ff3.jpg)
+![4 1](https://user-images.githubusercontent.com/19627004/103425435-8c988600-4bb2-11eb-99e0-13a846889428.jpg)
