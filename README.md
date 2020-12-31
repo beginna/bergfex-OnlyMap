@@ -7,7 +7,7 @@ One mouse click to show bergfex map in full screen.
 
 Install bergfex OnlyMap from  
 [Mozilla Add-ons Store](https://addons.mozilla.org/en-GB/firefox/addon/bergfex-onlymap/)  
-[Chrome Web Store](https://chrome.google.com/webstore/)
+[Chrome Web Store](https://chrome.google.com/webstore/) tba
 
 ## Firefox
 ![bergfexcom_pageAction_redbox](https://user-images.githubusercontent.com/19627004/103413310-4541d380-4b79-11eb-9adb-1d7a1dd02f81.png)
