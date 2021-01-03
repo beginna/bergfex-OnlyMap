@@ -4,10 +4,12 @@
 	console.log("Addon: bergfex OnlyMap: injecting modification in activities.");
 
 	if (document.querySelector("#mapwrapper").classList.contains("fullscreen")) {
+		//full screen to small map
 		document.querySelector("#mapwrapper").setAttribute("class","");
 		document.querySelector("#map-canvas").setAttribute("style", "position: relative; overflow: hidden; height: 700px; width: 100%; top: 0px; left: 0px;");
 		document.querySelector("#mapfullscreen").setAttribute("class", "map-action map-action-fullscreen z-index-333 button-fullscreen")
 		} else {
+			//small map to full screen
 			document.querySelector("#mapwrapper").setAttribute("class", "fullscreen");
 			document.querySelector("#map-canvas").setAttribute("style", "position: fixed; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;");
 			document.querySelector("#mapfullscreen").setAttribute("class", "map-action map-action-fullscreen z-index-333 button-zoomout")
