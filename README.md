@@ -16,6 +16,5 @@ Install bergfex OnlyMap from
 ![bergfex OnlyMap chrome install guide](https://user-images.githubusercontent.com/19627004/103457725-0a1edc00-4d02-11eb-82c4-9b022900ddd0.png)  
 
 
-## upadte
-Firefox 0.0.3, Chrome 0.0.3
-added full screen compatibility for activities map
+## update
+0.0.3: added full screen compatibility for activities map
