@@ -1,6 +1,6 @@
 {
   "name": "bergfex OnlyMap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "Show bergfex map in full screen.",
   "homepage_url": "https://github.com/beginna/bergfex-OnlyMap",
