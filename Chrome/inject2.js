@@ -17,10 +17,7 @@
 
 
 //block comment SHIFT-ALT-A
-//to debug:
-/* Uncaught TypeError: Cannot read property 'classList' of null
-    at inject2.js:16
-	at inject2.js:23 */
+
 
 /* 
 map klein
