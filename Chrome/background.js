@@ -10,8 +10,19 @@ chrome.tabs.onUpdated.addListener(function(id, info, tab){
 
 // listen for pageAction/icon to be clicked
 chrome.pageAction.onClicked.addListener(function(tab) {
-	// for the current tab, inject the "inject.js" file & execute it
-	chrome.tabs.executeScript(tab.id, {
-		file: 'inject.js'
-	});
+	console.log("debug: icon clicked");
+	if (tab.url.indexOf("mybergfex/activities.show") >-1) {
+		console.log("debug: activities detected");
+		// for the current tab, inject the "inject2.js" file & execute it
+		chrome.tabs.executeScript(tab.id, {file: 'inject2.js'})
+	} else {
+		console.log("debug: no activities detected");
+		if (tab.url.indexOf("bergfex") >-1) {
+			console.log("debug: bergfex detected");
+			// for the current tab, inject the "inject.js" file & execute it
+			chrome.tabs.executeScript(tab.id, {file: 'inject.js'})
+		} else {
+			console.log("debug: no bergfex detected")
+		};
+	};
 });
