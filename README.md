@@ -8,9 +8,6 @@ This small extension simplifies opening the map on the bergfex website. With one
 ★ deselects map layers / themes  
 ★ minimizes navigation bar on the left  
 
-## Update  
-★ 0.0.3 added full screen compatibility for activities map  
-
 ==============================  
 
 Free and Open Source:  
@@ -31,5 +28,5 @@ Install bergfex OnlyMap from
 ![bergfex OnlyMap chrome install guide](https://user-images.githubusercontent.com/19627004/103457725-0a1edc00-4d02-11eb-82c4-9b022900ddd0.png)  
 
 
-## update
-0.0.3: added full screen compatibility for activities map
+## Update  
+★ 0.0.3 added full screen compatibility for activities map  
