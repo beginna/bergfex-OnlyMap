@@ -1,7 +1,7 @@
 // this is the code which will be injected...
 
 (function() {
-	console.log("Addon: bergfex OnlyMap: injecting modifications");
+	console.log("Addon: bergfex OnlyMap: injecting modifications for main map");
 	  
 	document.getElementById('btn-map-show').click();
 	
@@ -37,9 +37,8 @@
 
 	document.querySelector("#siteMapCanvas > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > div:nth-child(2) > div > div.leaflet-control-fullscreen.leaflet-bar.leaflet-control > a").click();
 	document.querySelector("#siteMap > div.fullscreen-content-container > div.fullscreen-content-toggle").click();
-	document.querySelector("#mapfullscreen").click();
   
 	//switch to bergfex OEK
 	//document.querySelector("#siteMapCanvas > div.leaflet-control-container > div.leaflet-top.leaflet-right > div.leaflet-controls-container.leaflet-horizontal-container.leaflet-control > div.leaflet-control-maptypes.leaflet-bar > a.map-type-button.map-type-oek").click();
   
-  })();
+})();
