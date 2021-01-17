@@ -22,7 +22,7 @@
 //block comment SHIFT-ALT-A
 
 
-/* 
+/* notes
 map small
 div id="mapwrapper" class=""
 
