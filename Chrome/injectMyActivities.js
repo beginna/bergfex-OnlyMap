@@ -1,7 +1,7 @@
 // this is the code which will be injected...
 
 (function() {
-	console.log("Addon: bergfex OnlyMap: injecting modification in activities.");
+	console.log("Addon: bergfex OnlyMap: injecting modification for activities map.");
 
 	if (document.querySelector("#mapwrapper").classList.contains("fullscreen")) {
 		//full screen to small map

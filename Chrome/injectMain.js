@@ -1,7 +1,7 @@
 // this is the code which will be injected...
 
 (function() {
-	console.log("Addon: bergfex OnlyMap: injecting modifications");
+	console.log("Addon: bergfex OnlyMap: injecting modifications for main map");
 	  
 	document.getElementById('btn-map-show').click();
 	
