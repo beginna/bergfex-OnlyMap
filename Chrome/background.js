@@ -16,15 +16,15 @@ chrome.pageAction.onClicked.addListener(function(tab) {
 	if (tab.url.indexOf("mybergfex/activities.show") >-1) {
 		console.log("debug: activities detected");
 		// for the current tab, inject the "inject2.js" file & execute it
-		chrome.tabs.executeScript(tab.id, {file: 'inject2.js'});
-		console.log("debug: called inject2.js");
+		chrome.tabs.executeScript(tab.id, {file: 'injectMyActivities.js'});
+		console.log("debug: called injectMyActivities.js");
 	} else {
 		console.log("debug: no activities detected");
 		if (tab.url.indexOf("bergfex") >-1) {
 			console.log("debug: bergfex detected");
 			// for the current tab, inject the "inject.js" file & execute it
-			chrome.tabs.executeScript(tab.id, {file: 'inject.js'});
-			console.log("debug: called inject.js");
+			chrome.tabs.executeScript(tab.id, {file: 'injectMain.js'});
+			console.log("debug: called injectMain.js");
 		} else {
 			console.log("debug: no bergfex detected")
 		};
