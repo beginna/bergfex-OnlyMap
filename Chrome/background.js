@@ -14,19 +14,27 @@ chrome.tabs.onUpdated.addListener(function(id, info, tab){
 chrome.pageAction.onClicked.addListener(function(tab) {
 	console.log("debug: icon clicked");
 	if (tab.url.indexOf("mybergfex/activities.show") >-1) {
-		console.log("debug: activities detected");
-		// for the current tab, inject the "inject2.js" file & execute it
+		console.log("debug: activities.show in url detected");
+		// for the current tab, inject the "injectMyActivities.js" file & execute it
 		chrome.tabs.executeScript(tab.id, {file: 'injectMyActivities.js'});
 		console.log("debug: called injectMyActivities.js");
+
+	} else if (tab.url.indexOf("mybergfex/touren.list") >-1) {
+		console.log("debug: touren.list in url detected");
+		// for the current tab, inject the "injectMyTouren.js" file & execute it
+		chrome.tabs.executeScript(tab.id, {file: 'injectMyTouren.js'});
+		console.log("debug: called injectMyTouren.js");
+
 	} else {
 		console.log("debug: no activities detected");
 		if (tab.url.indexOf("bergfex") >-1) {
-			console.log("debug: bergfex detected");
-			// for the current tab, inject the "inject.js" file & execute it
+			console.log("debug: bergfex in url detected");
+			// for the current tab, inject the "injectMain.js" file & execute it
 			chrome.tabs.executeScript(tab.id, {file: 'injectMain.js'});
 			console.log("debug: called injectMain.js");
+
 		} else {
-			console.log("debug: no bergfex detected")
+			console.log("debug: no bergfex in url detected")
 		};
 	};
 });
