@@ -1,7 +1,7 @@
 # bergfex OnlyMap  
 One mouse click to show bergfex map in full screen.
 
-This small extension simplifies opening the map on the bergfex website. With one mouse click, the bergfex map is opened in full screen without additional layers and themes.
+This small browser extension simplifies opening the map on the bergfex website. With one mouse click, the bergfex map is opened in full screen without additional layers and themes.
 
 ## What bergfex OnlyMap does  
 ★ opens bergfex map in full screen  
@@ -14,10 +14,6 @@ Free and Open Source:
 https://github.com/beginna/bergfex-OnlyMap  
 
 ## Install  
-<a href="https://addons.mozilla.org/en-GB/firefox/addon/bergfex-onlymap/"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_128x128.png" width="48" /></a>
-<a href="https://chrome.google.com/webstore/detail/bergfex-onlymap/dpdhedfejfioodmigcfcnnohciblpldl"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_128x128.png" width="48" /></a>
-
-Install bergfex OnlyMap from  
 [Mozilla Add-ons Store](https://addons.mozilla.org/en-GB/firefox/addon/bergfex-onlymap/)  
 [Chrome Web Store](https://chrome.google.com/webstore/detail/bergfex-onlymap/dpdhedfejfioodmigcfcnnohciblpldl/)  
 
