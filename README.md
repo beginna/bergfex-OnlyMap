@@ -25,6 +25,7 @@ https://github.com/beginna/bergfex-OnlyMap
 
 
 ## Update  
-★ 0.0.5 removed sidebar  
+★ WIP 0.0.6 debug map layer selection
+★ 0.0.5 removed sidebar
 ★ 0.0.4 added full screen compatibility for "my tours" map  
 ★ 0.0.3 added full screen compatibility for "activities" map

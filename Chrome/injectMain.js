@@ -7,7 +7,6 @@
 	
 	var mapLayerActivityArr = [
 		"map-layer-skigebiete",
-		"map-layer-skigebiete",
 		"map-layer-langlaufen",
 		"map-layer-unterkuenfte",
 		"map-layer-sommerinfos",
