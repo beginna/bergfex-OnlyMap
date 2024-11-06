@@ -1,7 +1,7 @@
 {
   "name": "bergfex OnlyMap",
-  "version": "0.0.6",
-  "manifest_version": 2,
+  "version": "0.0.666",
+  "manifest_version": 3,
   "description": "Show bergfex map in full screen.",
   "homepage_url": "https://github.com/beginna/bergfex-OnlyMap",
   "background": {
@@ -14,8 +14,11 @@
     "default_title": "Show bergfex OnlyMap",
     "default_icon": "icons/icon.png"
   },
+
   "permissions": [
-    "tabs",
+    "tabs"
+  ],
+  "host_permissions": [
     "*://www.bergfex.at/*",
     "*://www.bergfex.ch/*",
     "*://www.bergfex.de/*",
