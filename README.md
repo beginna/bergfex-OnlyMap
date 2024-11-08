@@ -18,7 +18,7 @@ https://github.com/beginna/bergfex-OnlyMap
 [Chrome Web Store](https://chrome.google.com/webstore/detail/bergfex-onlymap/dpdhedfejfioodmigcfcnnohciblpldl/)  
 
 ## Update  
-★ 0.6 rewritten and simplified
-★ 0.0.5 removed sidebar
+★ 0.6 rewritten and simplified  
+★ 0.0.5 removed sidebar  
 ★ 0.0.4 added full screen compatibility for "my tours" map  
 ★ 0.0.3 added full screen compatibility for "activities" map
